@@ -2,9 +2,10 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
 import NavBar from './components/NavBar'
+import FooterSection from './components/FooterSection'
 import Home from './pages/Home/Index'
 import Activities from './pages/Activities/Index'
-import Gallery from './pages/Gallery/Index' 
+import Gallery from './pages/Gallery/Index'
 import Contact from './pages/Contact/Index'
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route path='/Contact' element={<Contact />}></Route>
 
       </Routes>
+
+      <FooterSection></FooterSection>
 
     </>
   )

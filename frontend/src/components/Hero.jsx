@@ -36,7 +36,7 @@ function Hero() {
   return (
     <>
 
-      <div className='border w-full flex flex-col relative justify-center items-center p-4'>
+      <div className=' w-full flex flex-col relative justify-center items-center p-4'>
         <img className='w-[98%] rounded ' src={HeroImg[index]} alt="Hero Images" />
 
         <div className='absolute  border w-[90%] bottom-77 font-bold'> 

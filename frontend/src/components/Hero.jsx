@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import SantaFest from '../assets/images/santa-festival.jpg'
 import TikaFest from '../assets/images/tika.jpg'
 import BhaitikaFest from '../assets/images/bhaitika.jpg'
-import KrishnaFest from '../assets/images/Krishna.jpg'
-import Krishna1Fest from '../assets/images/Krishna1.jpg'
+import KrishnaFest from '../assets/images/krishna.jpg'
+import Krishna1Fest from '../assets/images/krishna1.jpg'
 
 
 const HeroImg = [SantaFest, TikaFest, BhaitikaFest, KrishnaFest, Krishna1Fest]
